@@ -1,0 +1,282 @@
+2025-02-05 00:37:58,230 - INFO - Batch 0:
+2025-02-05 00:37:58,230 - INFO -   Positive Similarity - Mean: 0.93950909, Min: 0.92283547, Max: 0.95618272
+2025-02-05 00:37:58,231 - INFO -   Negative Similarity - Mean: 0.90734345, Min: 0.75255311, Max: 0.96415371
+2025-02-05 00:37:58,246 - INFO - Batch 1:
+2025-02-05 00:37:58,246 - INFO -   Positive Similarity - Mean: 0.95286995, Min: 0.93002921, Max: 0.97217363
+2025-02-05 00:37:58,247 - INFO -   Negative Similarity - Mean: 0.96098846, Min: 0.94346446, Max: 0.97604692
+2025-02-05 00:37:59,485 - INFO - Batch 2:
+2025-02-05 00:37:59,485 - INFO -   Positive Similarity - Mean: 0.96539390, Min: 0.94440776, Max: 0.98638010
+2025-02-05 00:37:59,485 - INFO -   Negative Similarity - Mean: 0.98172963, Min: 0.97257912, Max: 0.99082124
+2025-02-05 00:37:59,500 - INFO - Batch 3:
+2025-02-05 00:37:59,500 - INFO -   Positive Similarity - Mean: 0.98314619, Min: 0.96811414, Max: 0.99381018
+2025-02-05 00:37:59,500 - INFO -   Negative Similarity - Mean: 0.97766113, Min: 0.96339077, Max: 0.99217099
+2025-02-05 00:38:00,742 - INFO - Batch 4:
+2025-02-05 00:38:00,743 - INFO -   Positive Similarity - Mean: 0.98861688, Min: 0.98467112, Max: 0.99396634
+2025-02-05 00:38:00,743 - INFO -   Negative Similarity - Mean: 0.98482651, Min: 0.97087312, Max: 0.99324167
+2025-02-05 00:38:00,765 - INFO - Batch 5:
+2025-02-05 00:38:00,765 - INFO -   Positive Similarity - Mean: 0.99152249, Min: 0.98673874, Max: 0.99645686
+2025-02-05 00:38:00,765 - INFO -   Negative Similarity - Mean: 0.99076313, Min: 0.98807085, Max: 0.99535418
+2025-02-05 00:38:02,300 - INFO - Batch 6:
+2025-02-05 00:38:02,301 - INFO -   Positive Similarity - Mean: 0.99299228, Min: 0.99256146, Max: 0.99342304
+2025-02-05 00:38:02,301 - INFO -   Negative Similarity - Mean: 0.99190158, Min: 0.98685455, Max: 0.99639773
+2025-02-05 00:38:02,323 - INFO - Batch 7:
+2025-02-05 00:38:02,324 - INFO -   Positive Similarity - Mean: 0.99269503, Min: 0.99253690, Max: 0.99285316
+2025-02-05 00:38:02,324 - INFO -   Negative Similarity - Mean: 0.99147689, Min: 0.98574233, Max: 0.99623644
+2025-02-05 00:38:03,576 - INFO - Batch 8:
+2025-02-05 00:38:03,577 - INFO -   Positive Similarity - Mean: 0.98958588, Min: 0.98958588, Max: 0.98958588
+2025-02-05 00:38:03,577 - INFO -   Negative Similarity - Mean: 0.99292320, Min: 0.98893476, Max: 0.99707460
+2025-02-05 00:38:03,595 - INFO - Batch 9:
+2025-02-05 00:38:03,596 - INFO -   Positive Similarity - Mean: 0.99486977, Min: 0.99026954, Max: 0.99772930
+2025-02-05 00:38:03,596 - INFO -   Negative Similarity - Mean: 0.99537873, Min: 0.99353272, Max: 0.99633968
+2025-02-05 17:14:13,140 - INFO - Batch 0: Positive Distance - Mean: 56.9546, Min: 12.8891, Max: 141.9520
+2025-02-05 17:14:13,141 - INFO - Batch 0: Negative Distance - Mean: 63.4132, Min: 29.0654, Max: 180.3638
+2025-02-05 17:14:13,348 - INFO - Batch 1: Positive Distance - Mean: 50.7246, Min: 7.2314, Max: 171.1992
+2025-02-05 17:14:13,349 - INFO - Batch 1: Negative Distance - Mean: 82.7212, Min: 35.9538, Max: 280.2043
+2025-02-05 17:14:14,045 - INFO - Batch 2: Positive Distance - Mean: 53.8253, Min: 7.8520, Max: 109.1448
+2025-02-05 17:14:14,045 - INFO - Batch 2: Negative Distance - Mean: 79.7716, Min: 24.3126, Max: 486.6286
+2025-02-05 17:14:14,694 - INFO - Batch 3: Positive Distance - Mean: 44.7747, Min: 3.6267, Max: 93.9577
+2025-02-05 17:14:14,694 - INFO - Batch 3: Negative Distance - Mean: 60.0519, Min: 22.0171, Max: 118.2041
+2025-02-05 17:14:14,747 - INFO - Batch 4: Positive Distance - Mean: 46.3617, Min: 12.9234, Max: 95.0880
+2025-02-05 17:14:14,747 - INFO - Batch 4: Negative Distance - Mean: 72.0554, Min: 16.8247, Max: 252.8104
+2025-02-05 17:14:15,439 - INFO - Batch 5: Positive Distance - Mean: 44.0434, Min: 10.5808, Max: 126.8942
+2025-02-05 17:14:15,440 - INFO - Batch 5: Negative Distance - Mean: 52.8067, Min: 10.4214, Max: 114.8214
+2025-02-05 17:14:15,945 - INFO - Batch 6: Positive Distance - Mean: 33.7617, Min: 14.4293, Max: 85.4520
+2025-02-05 17:14:15,945 - INFO - Batch 6: Negative Distance - Mean: 40.0835, Min: 15.6581, Max: 149.0218
+2025-02-05 17:14:16,574 - INFO - Batch 7: Positive Distance - Mean: 23.9229, Min: 7.0753, Max: 57.2441
+2025-02-05 17:14:16,574 - INFO - Batch 7: Negative Distance - Mean: 38.9189, Min: 17.5634, Max: 73.3276
+2025-02-05 17:14:16,726 - INFO - Batch 8: Positive Distance - Mean: 29.2276, Min: 10.1745, Max: 51.9727
+2025-02-05 17:14:16,726 - INFO - Batch 8: Negative Distance - Mean: 33.1989, Min: 15.6671, Max: 63.4519
+2025-02-05 17:14:17,682 - INFO - Batch 9: Positive Distance - Mean: 21.3190, Min: 5.5219, Max: 52.3444
+2025-02-05 17:14:17,682 - INFO - Batch 9: Negative Distance - Mean: 29.3228, Min: 8.1401, Max: 55.1720
+
+
+2025-02-05 17:33:38,025 - INFO - Batch 0: Positive Distance - Mean: 109.5929, Min: 22.7436, Max: 334.4983
+2025-02-05 17:33:38,026 - INFO - Batch 0: Negative Distance - Mean: 134.5661, Min: 31.7720, Max: 357.3711
+2025-02-05 17:33:38,042 - INFO - Batch 1: Positive Distance - Mean: 91.4817, Min: 22.3544, Max: 176.1678
+2025-02-05 17:33:38,042 - INFO - Batch 1: Negative Distance - Mean: 99.6056, Min: 22.1301, Max: 234.7891
+2025-02-05 17:33:39,200 - INFO - Batch 2: Positive Distance - Mean: 75.1631, Min: 18.8707, Max: 200.7395
+2025-02-05 17:33:39,201 - INFO - Batch 2: Negative Distance - Mean: 82.1557, Min: 18.9459, Max: 224.0092
+2025-02-05 17:33:39,219 - INFO - Batch 3: Positive Distance - Mean: 68.5345, Min: 12.4232, Max: 203.5379
+2025-02-05 17:33:39,219 - INFO - Batch 3: Negative Distance - Mean: 83.4414, Min: 26.5576, Max: 196.8743
+2025-02-05 17:33:40,053 - INFO - Batch 4: Positive Distance - Mean: 90.5706, Min: 22.8859, Max: 167.0605
+2025-02-05 17:33:40,053 - INFO - Batch 4: Negative Distance - Mean: 95.5815, Min: 40.7426, Max: 161.1233
+2025-02-05 17:33:40,082 - INFO - Batch 5: Positive Distance - Mean: 83.6510, Min: 11.6846, Max: 193.9613
+2025-02-05 17:33:40,083 - INFO - Batch 5: Negative Distance - Mean: 110.1163, Min: 40.7518, Max: 226.7007
+2025-02-05 17:33:40,947 - INFO - Batch 6: Positive Distance - Mean: 77.2566, Min: 14.7916, Max: 136.2839
+2025-02-05 17:33:40,947 - INFO - Batch 6: Negative Distance - Mean: 75.0695, Min: 29.3661, Max: 160.3469
+2025-02-05 17:33:40,970 - INFO - Batch 7: Positive Distance - Mean: 55.0036, Min: 11.9853, Max: 115.8346
+2025-02-05 17:33:40,970 - INFO - Batch 7: Negative Distance - Mean: 69.8898, Min: 21.3985, Max: 135.3674
+2025-02-05 17:33:42,090 - INFO - Batch 8: Positive Distance - Mean: 44.9137, Min: 12.9034, Max: 109.0365
+2025-02-05 17:33:42,090 - INFO - Batch 8: Negative Distance - Mean: 50.6703, Min: 29.5737, Max: 108.8425
+2025-02-05 17:33:42,189 - INFO - Batch 9: Positive Distance - Mean: 56.2610, Min: 8.2712, Max: 125.4028
+2025-02-05 17:33:42,189 - INFO - Batch 9: Negative Distance - Mean: 69.1218, Min: 20.6937, Max: 160.1224
+2025-02-05 18:09:36,133 - INFO - Epoch 1: Train Loss: 1.5452
+2025-02-05 18:09:36,185 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_1.pth
+2025-02-05 18:09:36,267 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-05 18:19:10,946 - INFO - Batch 0: Positive Distance - Mean: 71.8545, Min: 24.3636, Max: 104.1269
+2025-02-05 18:19:10,946 - INFO - Batch 0: Negative Distance - Mean: 305.4249, Min: 166.4626, Max: 509.0591
+2025-02-05 18:19:10,974 - INFO - Batch 1: Positive Distance - Mean: 85.1960, Min: 42.8083, Max: 129.5128
+2025-02-05 18:19:10,974 - INFO - Batch 1: Negative Distance - Mean: 288.5231, Min: 89.6734, Max: 475.6268
+2025-02-05 18:19:12,098 - INFO - Batch 2: Positive Distance - Mean: 71.6113, Min: 27.8446, Max: 140.4832
+2025-02-05 18:19:12,099 - INFO - Batch 2: Negative Distance - Mean: 273.3315, Min: 77.0458, Max: 390.8165
+2025-02-05 18:19:12,123 - INFO - Batch 3: Positive Distance - Mean: 84.5913, Min: 45.1872, Max: 148.1574
+2025-02-05 18:19:12,123 - INFO - Batch 3: Negative Distance - Mean: 242.7638, Min: 84.6140, Max: 481.6879
+2025-02-05 18:19:12,986 - INFO - Batch 4: Positive Distance - Mean: 82.2355, Min: 38.4684, Max: 138.4426
+2025-02-05 18:19:12,986 - INFO - Batch 4: Negative Distance - Mean: 308.4152, Min: 61.8901, Max: 560.0245
+2025-02-05 18:19:13,011 - INFO - Batch 5: Positive Distance - Mean: 71.6100, Min: 33.4866, Max: 125.9431
+2025-02-05 18:19:13,011 - INFO - Batch 5: Negative Distance - Mean: 238.7518, Min: 133.4678, Max: 469.2870
+2025-02-05 18:19:14,076 - INFO - Batch 6: Positive Distance - Mean: 70.3865, Min: 42.8906, Max: 104.4354
+2025-02-05 18:19:14,076 - INFO - Batch 6: Negative Distance - Mean: 258.6059, Min: 52.4897, Max: 450.5059
+2025-02-05 18:19:14,185 - INFO - Batch 7: Positive Distance - Mean: 70.6756, Min: 30.4016, Max: 138.2632
+2025-02-05 18:19:14,186 - INFO - Batch 7: Negative Distance - Mean: 278.9318, Min: 83.4587, Max: 528.6654
+2025-02-05 18:19:15,048 - INFO - Batch 8: Positive Distance - Mean: 72.0377, Min: 29.1693, Max: 138.7593
+2025-02-05 18:19:15,049 - INFO - Batch 8: Negative Distance - Mean: 242.1538, Min: 112.0236, Max: 354.2159
+2025-02-05 18:19:15,245 - INFO - Batch 9: Positive Distance - Mean: 82.7834, Min: 32.4275, Max: 173.7722
+2025-02-05 18:19:15,245 - INFO - Batch 9: Negative Distance - Mean: 256.1411, Min: 75.7039, Max: 571.3140
+2025-02-05 18:54:58,367 - INFO - Epoch 2: Train Loss: 0.9628
+2025-02-05 18:54:58,424 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_2.pth
+2025-02-05 18:54:58,511 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-05 19:04:36,430 - INFO - Batch 0: Positive Distance - Mean: 77.3906, Min: 23.0047, Max: 115.6587
+2025-02-05 19:04:36,431 - INFO - Batch 0: Negative Distance - Mean: 251.3146, Min: 126.6711, Max: 416.7777
+2025-02-05 19:04:36,448 - INFO - Batch 1: Positive Distance - Mean: 78.1582, Min: 39.0057, Max: 114.2892
+2025-02-05 19:04:36,449 - INFO - Batch 1: Negative Distance - Mean: 225.4518, Min: 128.9720, Max: 403.0478
+2025-02-05 19:04:37,309 - INFO - Batch 2: Positive Distance - Mean: 74.7074, Min: 26.6449, Max: 133.4030
+2025-02-05 19:04:37,309 - INFO - Batch 2: Negative Distance - Mean: 221.5551, Min: 78.9778, Max: 413.4491
+2025-02-05 19:04:37,425 - INFO - Batch 3: Positive Distance - Mean: 63.4316, Min: 24.4049, Max: 159.7504
+2025-02-05 19:04:37,426 - INFO - Batch 3: Negative Distance - Mean: 207.5260, Min: 123.7439, Max: 328.6113
+2025-02-05 19:04:38,621 - INFO - Batch 4: Positive Distance - Mean: 76.9642, Min: 30.5721, Max: 128.8655
+2025-02-05 19:04:38,621 - INFO - Batch 4: Negative Distance - Mean: 217.8651, Min: 129.7652, Max: 390.9460
+2025-02-05 19:04:38,648 - INFO - Batch 5: Positive Distance - Mean: 78.1709, Min: 41.9971, Max: 139.1003
+2025-02-05 19:04:38,648 - INFO - Batch 5: Negative Distance - Mean: 230.8812, Min: 163.6272, Max: 407.0041
+2025-02-05 19:04:39,933 - INFO - Batch 6: Positive Distance - Mean: 60.8957, Min: 24.6392, Max: 109.8464
+2025-02-05 19:04:39,933 - INFO - Batch 6: Negative Distance - Mean: 235.2181, Min: 120.3886, Max: 361.5947
+2025-02-05 19:04:39,954 - INFO - Batch 7: Positive Distance - Mean: 65.0236, Min: 30.7840, Max: 98.6990
+2025-02-05 19:04:39,954 - INFO - Batch 7: Negative Distance - Mean: 218.8071, Min: 78.5065, Max: 387.2633
+2025-02-05 19:04:40,931 - INFO - Batch 8: Positive Distance - Mean: 68.1621, Min: 40.5503, Max: 114.2291
+2025-02-05 19:04:40,932 - INFO - Batch 8: Negative Distance - Mean: 248.1709, Min: 118.0000, Max: 415.0811
+2025-02-05 19:04:40,953 - INFO - Batch 9: Positive Distance - Mean: 70.6734, Min: 29.6580, Max: 131.0133
+2025-02-05 19:04:40,953 - INFO - Batch 9: Negative Distance - Mean: 241.3105, Min: 89.0174, Max: 351.1243
+2025-02-05 19:40:28,806 - INFO - Epoch 3: Train Loss: 0.7924
+2025-02-05 19:40:28,870 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_3.pth
+2025-02-05 19:40:28,958 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-05 19:49:57,618 - INFO - Batch 0: Positive Distance - Mean: 75.9285, Min: 38.8476, Max: 108.8581
+2025-02-05 19:49:57,618 - INFO - Batch 0: Negative Distance - Mean: 287.5579, Min: 85.2334, Max: 548.6674
+2025-02-05 19:49:57,982 - INFO - Batch 1: Positive Distance - Mean: 77.7488, Min: 29.2291, Max: 125.6072
+2025-02-05 19:49:57,982 - INFO - Batch 1: Negative Distance - Mean: 365.0004, Min: 213.5190, Max: 590.2147
+2025-02-05 19:49:58,316 - INFO - Batch 2: Positive Distance - Mean: 91.3463, Min: 46.9911, Max: 128.2009
+2025-02-05 19:49:58,316 - INFO - Batch 2: Negative Distance - Mean: 308.5362, Min: 118.7399, Max: 463.2696
+2025-02-05 19:49:59,065 - INFO - Batch 3: Positive Distance - Mean: 87.3844, Min: 35.9112, Max: 158.9685
+2025-02-05 19:49:59,065 - INFO - Batch 3: Negative Distance - Mean: 358.6160, Min: 175.6718, Max: 569.1360
+2025-02-05 19:49:59,082 - INFO - Batch 4: Positive Distance - Mean: 101.8065, Min: 25.3382, Max: 169.2091
+2025-02-05 19:49:59,082 - INFO - Batch 4: Negative Distance - Mean: 353.9081, Min: 143.8917, Max: 514.0195
+2025-02-05 19:50:00,164 - INFO - Batch 5: Positive Distance - Mean: 87.2143, Min: 33.5910, Max: 144.0788
+2025-02-05 19:50:00,164 - INFO - Batch 5: Negative Distance - Mean: 314.6526, Min: 55.6844, Max: 527.1036
+2025-02-05 19:50:00,317 - INFO - Batch 6: Positive Distance - Mean: 78.4882, Min: 29.3008, Max: 148.3593
+2025-02-05 19:50:00,318 - INFO - Batch 6: Negative Distance - Mean: 300.4792, Min: 127.4636, Max: 457.8423
+2025-02-05 19:50:01,305 - INFO - Batch 7: Positive Distance - Mean: 111.1146, Min: 18.8826, Max: 232.2722
+2025-02-05 19:50:01,305 - INFO - Batch 7: Negative Distance - Mean: 332.5582, Min: 183.4376, Max: 489.3117
+2025-02-05 19:50:01,741 - INFO - Batch 8: Positive Distance - Mean: 77.9959, Min: 16.5446, Max: 125.5302
+2025-02-05 19:50:01,742 - INFO - Batch 8: Negative Distance - Mean: 360.3324, Min: 174.3591, Max: 497.8779
+2025-02-05 19:50:02,468 - INFO - Batch 9: Positive Distance - Mean: 78.4924, Min: 37.9111, Max: 149.9966
+2025-02-05 19:50:02,469 - INFO - Batch 9: Negative Distance - Mean: 335.0297, Min: 87.5257, Max: 585.8514
+2025-02-05 20:25:39,759 - INFO - Epoch 4: Train Loss: 0.7519
+2025-02-05 20:25:39,815 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_4.pth
+2025-02-05 20:25:39,899 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-05 20:35:11,510 - INFO - Batch 0: Positive Distance - Mean: 76.3828, Min: 28.3558, Max: 164.3943
+2025-02-05 20:35:11,510 - INFO - Batch 0: Negative Distance - Mean: 271.1113, Min: 120.5349, Max: 380.9084
+2025-02-05 20:35:11,531 - INFO - Batch 1: Positive Distance - Mean: 84.4234, Min: 36.2849, Max: 145.7365
+2025-02-05 20:35:11,531 - INFO - Batch 1: Negative Distance - Mean: 253.1054, Min: 142.6748, Max: 387.0891
+2025-02-05 20:35:12,755 - INFO - Batch 2: Positive Distance - Mean: 77.7169, Min: 22.4975, Max: 170.7962
+2025-02-05 20:35:12,756 - INFO - Batch 2: Negative Distance - Mean: 267.3376, Min: 80.1631, Max: 406.5234
+2025-02-05 20:35:12,781 - INFO - Batch 3: Positive Distance - Mean: 86.1739, Min: 55.7384, Max: 154.6416
+2025-02-05 20:35:12,781 - INFO - Batch 3: Negative Distance - Mean: 246.1121, Min: 82.6460, Max: 395.7347
+2025-02-05 20:35:13,811 - INFO - Batch 4: Positive Distance - Mean: 95.2747, Min: 36.5737, Max: 169.6891
+2025-02-05 20:35:13,812 - INFO - Batch 4: Negative Distance - Mean: 271.8452, Min: 153.9753, Max: 472.8971
+2025-02-05 20:35:13,834 - INFO - Batch 5: Positive Distance - Mean: 73.5781, Min: 29.9613, Max: 162.5581
+2025-02-05 20:35:13,835 - INFO - Batch 5: Negative Distance - Mean: 266.3269, Min: 86.2650, Max: 500.3032
+2025-02-05 20:35:14,887 - INFO - Batch 6: Positive Distance - Mean: 88.0618, Min: 47.6771, Max: 170.3275
+2025-02-05 20:35:14,888 - INFO - Batch 6: Negative Distance - Mean: 320.8885, Min: 216.3442, Max: 484.3512
+2025-02-05 20:35:14,903 - INFO - Batch 7: Positive Distance - Mean: 92.2254, Min: 42.5573, Max: 125.8925
+2025-02-05 20:35:14,904 - INFO - Batch 7: Negative Distance - Mean: 291.2101, Min: 146.2242, Max: 490.1483
+2025-02-05 20:35:15,922 - INFO - Batch 8: Positive Distance - Mean: 83.6897, Min: 23.2585, Max: 213.0421
+2025-02-05 20:35:15,922 - INFO - Batch 8: Negative Distance - Mean: 241.7518, Min: 111.6220, Max: 423.9177
+2025-02-05 20:35:15,938 - INFO - Batch 9: Positive Distance - Mean: 97.0359, Min: 48.0803, Max: 156.1477
+2025-02-05 20:35:15,938 - INFO - Batch 9: Negative Distance - Mean: 267.7460, Min: 89.7390, Max: 371.4930
+2025-02-05 21:11:06,194 - INFO - Epoch 5: Train Loss: 0.7078
+2025-02-05 21:11:06,251 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_5.pth
+2025-02-05 21:11:06,355 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-05 21:20:36,709 - INFO - Batch 0: Positive Distance - Mean: 120.7705, Min: 54.7907, Max: 310.8154
+2025-02-05 21:20:36,710 - INFO - Batch 0: Negative Distance - Mean: 280.1125, Min: 143.6140, Max: 507.9601
+2025-02-05 21:20:36,731 - INFO - Batch 1: Positive Distance - Mean: 123.3230, Min: 89.3487, Max: 186.5621
+2025-02-05 21:20:36,731 - INFO - Batch 1: Negative Distance - Mean: 358.4288, Min: 141.5878, Max: 535.5478
+2025-02-05 21:20:37,808 - INFO - Batch 2: Positive Distance - Mean: 129.8112, Min: 64.5452, Max: 344.1750
+2025-02-05 21:20:37,809 - INFO - Batch 2: Negative Distance - Mean: 297.0168, Min: 113.9458, Max: 489.6363
+2025-02-05 21:20:37,836 - INFO - Batch 3: Positive Distance - Mean: 92.4894, Min: 35.8456, Max: 162.0586
+2025-02-05 21:20:37,837 - INFO - Batch 3: Negative Distance - Mean: 298.1435, Min: 102.3727, Max: 477.2627
+2025-02-05 21:20:38,707 - INFO - Batch 4: Positive Distance - Mean: 106.2971, Min: 40.0548, Max: 169.6242
+2025-02-05 21:20:38,708 - INFO - Batch 4: Negative Distance - Mean: 281.1127, Min: 160.0432, Max: 410.7685
+2025-02-05 21:20:38,731 - INFO - Batch 5: Positive Distance - Mean: 92.9332, Min: 42.8745, Max: 186.5400
+2025-02-05 21:20:38,732 - INFO - Batch 5: Negative Distance - Mean: 263.7409, Min: 135.7734, Max: 525.0686
+2025-02-05 21:20:39,972 - INFO - Batch 6: Positive Distance - Mean: 81.0129, Min: 35.4440, Max: 147.1193
+2025-02-05 21:20:39,973 - INFO - Batch 6: Negative Distance - Mean: 297.1882, Min: 163.4453, Max: 516.3633
+2025-02-05 21:20:39,993 - INFO - Batch 7: Positive Distance - Mean: 95.3187, Min: 40.1682, Max: 156.3588
+2025-02-05 21:20:39,994 - INFO - Batch 7: Negative Distance - Mean: 294.4243, Min: 173.3633, Max: 505.1158
+2025-02-05 21:20:40,942 - INFO - Batch 8: Positive Distance - Mean: 105.0629, Min: 48.8791, Max: 219.9063
+2025-02-05 21:20:40,943 - INFO - Batch 8: Negative Distance - Mean: 317.5946, Min: 156.2611, Max: 582.2593
+2025-02-05 21:20:40,971 - INFO - Batch 9: Positive Distance - Mean: 89.9299, Min: 49.8251, Max: 170.6983
+2025-02-05 21:20:40,971 - INFO - Batch 9: Negative Distance - Mean: 273.4773, Min: 109.6137, Max: 496.4153
+2025-02-05 21:56:22,266 - INFO - Epoch 6: Train Loss: 0.6925
+2025-02-05 21:56:22,322 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_6.pth
+2025-02-05 21:56:22,417 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-05 22:05:57,939 - INFO - Batch 0: Positive Distance - Mean: 98.3848, Min: 55.8696, Max: 153.2225
+2025-02-05 22:05:57,940 - INFO - Batch 0: Negative Distance - Mean: 333.4834, Min: 204.3565, Max: 559.4818
+2025-02-05 22:05:57,952 - INFO - Batch 1: Positive Distance - Mean: 107.5355, Min: 49.6310, Max: 155.6780
+2025-02-05 22:05:57,952 - INFO - Batch 1: Negative Distance - Mean: 281.1165, Min: 109.8463, Max: 406.9108
+2025-02-05 22:05:59,226 - INFO - Batch 2: Positive Distance - Mean: 94.5810, Min: 54.1691, Max: 151.6263
+2025-02-05 22:05:59,226 - INFO - Batch 2: Negative Distance - Mean: 325.7626, Min: 153.1446, Max: 506.9106
+2025-02-05 22:05:59,251 - INFO - Batch 3: Positive Distance - Mean: 106.7200, Min: 62.4752, Max: 173.8816
+2025-02-05 22:05:59,251 - INFO - Batch 3: Negative Distance - Mean: 330.9227, Min: 189.8537, Max: 466.1620
+2025-02-05 22:06:00,107 - INFO - Batch 4: Positive Distance - Mean: 114.1048, Min: 56.6416, Max: 188.3872
+2025-02-05 22:06:00,108 - INFO - Batch 4: Negative Distance - Mean: 355.0918, Min: 151.6341, Max: 528.7280
+2025-02-05 22:06:00,127 - INFO - Batch 5: Positive Distance - Mean: 117.4133, Min: 51.6702, Max: 198.4776
+2025-02-05 22:06:00,127 - INFO - Batch 5: Negative Distance - Mean: 325.5734, Min: 192.8657, Max: 518.3689
+2025-02-05 22:06:01,288 - INFO - Batch 6: Positive Distance - Mean: 108.3337, Min: 36.6543, Max: 174.2474
+2025-02-05 22:06:01,289 - INFO - Batch 6: Negative Distance - Mean: 298.4714, Min: 144.5246, Max: 452.0269
+2025-02-05 22:06:01,312 - INFO - Batch 7: Positive Distance - Mean: 114.3148, Min: 69.1126, Max: 205.4843
+2025-02-05 22:06:01,312 - INFO - Batch 7: Negative Distance - Mean: 299.7930, Min: 137.7690, Max: 514.2872
+2025-02-05 22:06:02,950 - INFO - Batch 8: Positive Distance - Mean: 96.8412, Min: 32.9130, Max: 239.8350
+2025-02-05 22:06:02,951 - INFO - Batch 8: Negative Distance - Mean: 299.4989, Min: 100.3528, Max: 469.0589
+2025-02-05 22:06:02,975 - INFO - Batch 9: Positive Distance - Mean: 120.7923, Min: 24.4703, Max: 250.0611
+2025-02-05 22:06:02,976 - INFO - Batch 9: Negative Distance - Mean: 309.8394, Min: 111.1253, Max: 465.0905
+2025-02-05 22:42:07,055 - INFO - Epoch 7: Train Loss: 0.6428
+2025-02-05 22:42:07,125 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_7.pth
+2025-02-05 22:42:07,231 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-05 22:51:45,246 - INFO - Batch 0: Positive Distance - Mean: 128.0882, Min: 38.0792, Max: 237.6092
+2025-02-05 22:51:45,246 - INFO - Batch 0: Negative Distance - Mean: 383.6114, Min: 91.3875, Max: 890.8303
+2025-02-05 22:51:45,270 - INFO - Batch 1: Positive Distance - Mean: 102.7835, Min: 50.5551, Max: 168.3044
+2025-02-05 22:51:45,270 - INFO - Batch 1: Negative Distance - Mean: 346.6317, Min: 148.4398, Max: 491.7411
+2025-02-05 22:51:46,104 - INFO - Batch 2: Positive Distance - Mean: 156.6412, Min: 50.9229, Max: 310.9140
+2025-02-05 22:51:46,105 - INFO - Batch 2: Negative Distance - Mean: 422.1491, Min: 184.3174, Max: 777.3613
+2025-02-05 22:51:46,509 - INFO - Batch 3: Positive Distance - Mean: 117.5988, Min: 43.2810, Max: 221.0020
+2025-02-05 22:51:46,510 - INFO - Batch 3: Negative Distance - Mean: 386.3933, Min: 137.4877, Max: 829.4017
+2025-02-05 22:51:47,208 - INFO - Batch 4: Positive Distance - Mean: 136.3191, Min: 64.6189, Max: 229.6479
+2025-02-05 22:51:47,209 - INFO - Batch 4: Negative Distance - Mean: 345.6970, Min: 132.3305, Max: 548.9398
+2025-02-05 22:51:47,547 - INFO - Batch 5: Positive Distance - Mean: 132.6503, Min: 66.2992, Max: 248.9911
+2025-02-05 22:51:47,548 - INFO - Batch 5: Negative Distance - Mean: 328.1674, Min: 229.0946, Max: 483.9286
+2025-02-05 22:51:48,129 - INFO - Batch 6: Positive Distance - Mean: 133.8768, Min: 71.3700, Max: 300.0556
+2025-02-05 22:51:48,130 - INFO - Batch 6: Negative Distance - Mean: 395.2967, Min: 171.5614, Max: 575.2207
+2025-02-05 22:51:48,191 - INFO - Batch 7: Positive Distance - Mean: 144.5411, Min: 84.8708, Max: 270.0723
+2025-02-05 22:51:48,191 - INFO - Batch 7: Negative Distance - Mean: 385.8920, Min: 185.4066, Max: 716.5101
+2025-02-05 22:51:49,387 - INFO - Batch 8: Positive Distance - Mean: 119.8171, Min: 40.9059, Max: 185.4015
+2025-02-05 22:51:49,388 - INFO - Batch 8: Negative Distance - Mean: 392.7421, Min: 188.1328, Max: 734.1490
+2025-02-05 22:51:49,549 - INFO - Batch 9: Positive Distance - Mean: 124.6048, Min: 46.6774, Max: 284.2227
+2025-02-05 22:51:49,549 - INFO - Batch 9: Negative Distance - Mean: 336.8627, Min: 166.5839, Max: 610.8064
+2025-02-05 23:27:46,529 - INFO - Epoch 8: Train Loss: 0.6442
+2025-02-05 23:27:46,593 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_8.pth
+2025-02-05 23:27:46,694 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-05 23:37:17,840 - INFO - Batch 0: Positive Distance - Mean: 93.8431, Min: 30.9729, Max: 150.2688
+2025-02-05 23:37:17,840 - INFO - Batch 0: Negative Distance - Mean: 308.8050, Min: 147.3863, Max: 504.5615
+2025-02-05 23:37:18,056 - INFO - Batch 1: Positive Distance - Mean: 96.5615, Min: 43.1001, Max: 134.6654
+2025-02-05 23:37:18,056 - INFO - Batch 1: Negative Distance - Mean: 288.9699, Min: 147.9769, Max: 455.3919
+2025-02-05 23:37:19,142 - INFO - Batch 2: Positive Distance - Mean: 85.0349, Min: 28.9696, Max: 159.8754
+2025-02-05 23:37:19,143 - INFO - Batch 2: Negative Distance - Mean: 298.1365, Min: 151.7346, Max: 456.0661
+2025-02-05 23:37:19,166 - INFO - Batch 3: Positive Distance - Mean: 106.7415, Min: 55.6267, Max: 179.5876
+2025-02-05 23:37:19,166 - INFO - Batch 3: Negative Distance - Mean: 307.7710, Min: 132.8593, Max: 432.2358
+2025-02-05 23:37:20,115 - INFO - Batch 4: Positive Distance - Mean: 101.4684, Min: 27.3030, Max: 200.6966
+2025-02-05 23:37:20,116 - INFO - Batch 4: Negative Distance - Mean: 296.3826, Min: 96.6340, Max: 515.8357
+2025-02-05 23:37:20,142 - INFO - Batch 5: Positive Distance - Mean: 103.8638, Min: 24.1384, Max: 178.0651
+2025-02-05 23:37:20,142 - INFO - Batch 5: Negative Distance - Mean: 316.3680, Min: 182.7612, Max: 525.1938
+2025-02-05 23:37:21,268 - INFO - Batch 6: Positive Distance - Mean: 111.7604, Min: 50.2737, Max: 211.9160
+2025-02-05 23:37:21,268 - INFO - Batch 6: Negative Distance - Mean: 295.6346, Min: 193.0371, Max: 402.2846
+2025-02-05 23:37:21,295 - INFO - Batch 7: Positive Distance - Mean: 89.5214, Min: 44.9704, Max: 155.7642
+2025-02-05 23:37:21,295 - INFO - Batch 7: Negative Distance - Mean: 332.9225, Min: 199.0480, Max: 472.1678
+2025-02-05 23:37:22,746 - INFO - Batch 8: Positive Distance - Mean: 100.0560, Min: 51.7285, Max: 166.9439
+2025-02-05 23:37:22,747 - INFO - Batch 8: Negative Distance - Mean: 268.0300, Min: 159.5771, Max: 357.4528
+2025-02-05 23:37:22,771 - INFO - Batch 9: Positive Distance - Mean: 97.4755, Min: 50.6079, Max: 190.5127
+2025-02-05 23:37:22,771 - INFO - Batch 9: Negative Distance - Mean: 285.8216, Min: 162.8898, Max: 448.7797
+2025-02-06 00:13:12,751 - INFO - Epoch 9: Train Loss: 0.5961
+2025-02-06 00:13:12,820 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_9.pth
+2025-02-06 00:13:12,915 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth
+2025-02-06 00:22:40,884 - INFO - Batch 0: Positive Distance - Mean: 139.6789, Min: 54.3529, Max: 293.9950
+2025-02-06 00:22:40,884 - INFO - Batch 0: Negative Distance - Mean: 386.1723, Min: 152.3939, Max: 685.9662
+2025-02-06 00:22:41,120 - INFO - Batch 1: Positive Distance - Mean: 111.3645, Min: 29.1038, Max: 168.5224
+2025-02-06 00:22:41,120 - INFO - Batch 1: Negative Distance - Mean: 401.5480, Min: 182.0006, Max: 669.9364
+2025-02-06 00:22:42,011 - INFO - Batch 2: Positive Distance - Mean: 126.1453, Min: 61.5284, Max: 200.5644
+2025-02-06 00:22:42,011 - INFO - Batch 2: Negative Distance - Mean: 469.7441, Min: 178.3167, Max: 892.3504
+2025-02-06 00:22:42,346 - INFO - Batch 3: Positive Distance - Mean: 129.0118, Min: 50.1159, Max: 225.3825
+2025-02-06 00:22:42,347 - INFO - Batch 3: Negative Distance - Mean: 391.6951, Min: 140.9467, Max: 772.6768
+2025-02-06 00:22:43,105 - INFO - Batch 4: Positive Distance - Mean: 130.5356, Min: 60.3113, Max: 232.5290
+2025-02-06 00:22:43,106 - INFO - Batch 4: Negative Distance - Mean: 395.4246, Min: 225.4267, Max: 548.6931
+2025-02-06 00:22:43,504 - INFO - Batch 5: Positive Distance - Mean: 121.3025, Min: 58.8835, Max: 193.6244
+2025-02-06 00:22:43,504 - INFO - Batch 5: Negative Distance - Mean: 465.6541, Min: 233.0211, Max: 749.7932
+2025-02-06 00:22:44,288 - INFO - Batch 6: Positive Distance - Mean: 116.9190, Min: 47.5588, Max: 200.8569
+2025-02-06 00:22:44,289 - INFO - Batch 6: Negative Distance - Mean: 329.3558, Min: 111.6652, Max: 589.0265
+2025-02-06 00:22:44,470 - INFO - Batch 7: Positive Distance - Mean: 117.8832, Min: 54.5856, Max: 261.7294
+2025-02-06 00:22:44,470 - INFO - Batch 7: Negative Distance - Mean: 342.2808, Min: 155.3223, Max: 589.8399
+2025-02-06 00:22:45,063 - INFO - Batch 8: Positive Distance - Mean: 120.1189, Min: 61.9622, Max: 236.2996
+2025-02-06 00:22:45,063 - INFO - Batch 8: Negative Distance - Mean: 364.4138, Min: 149.2599, Max: 655.1304
+2025-02-06 00:22:45,738 - INFO - Batch 9: Positive Distance - Mean: 122.3923, Min: 69.4814, Max: 190.4058
+2025-02-06 00:22:45,739 - INFO - Batch 9: Negative Distance - Mean: 394.1058, Min: 84.0308, Max: 633.9855
+2025-02-06 00:58:10,310 - INFO - Epoch 10: Train Loss: 0.6003
+2025-02-06 00:58:10,384 - INFO - Model saved at ./model/SiameseGNN/TripletGNN_epoch_10.pth
+2025-02-06 00:58:10,476 - INFO - Checkpoint saved at ./model/latest_checkpoint.pth

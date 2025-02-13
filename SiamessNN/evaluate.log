@@ -1,0 +1,78 @@
+2025-02-06 12:22:11,711 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_1.pth
+2025-02-06 12:41:55,525 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_1.pth
+2025-02-06 12:51:12,438 - INFO - Epoch 1: Total Positive Distance - Mean: 52.1718, Min: 0.0000, Max: 552.3804
+2025-02-06 12:51:12,439 - INFO - Epoch 1: Total Negative Distance - Mean: 268.7986, Min: 0.0000, Max: 834.2061
+2025-02-06 12:51:12,511 - INFO - Epoch 1: Val Loss: 1.0261
+2025-02-06 12:51:12,512 - INFO - Epoch 1: Accuracy: 0.9508, F1 Score: 0.9531, Precision: 0.9106, Recall: 0.9999
+2025-02-06 12:51:13,076 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_2.pth
+2025-02-06 13:00:31,638 - INFO - Epoch 2: Total Positive Distance - Mean: 45.9872, Min: 0.0000, Max: 359.3719
+2025-02-06 13:00:31,639 - INFO - Epoch 2: Total Negative Distance - Mean: 225.4716, Min: 0.0000, Max: 595.1688
+2025-02-06 13:00:31,701 - INFO - Epoch 2: Val Loss: 0.7004
+2025-02-06 13:00:31,701 - INFO - Epoch 2: Accuracy: 0.9965, F1 Score: 0.9965, Precision: 0.9930, Recall: 1.0000
+2025-02-06 13:00:31,797 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_3.pth
+2025-02-06 13:09:50,721 - INFO - Epoch 3: Total Positive Distance - Mean: 56.7116, Min: 0.0000, Max: 393.6790
+2025-02-06 13:09:50,722 - INFO - Epoch 3: Total Negative Distance - Mean: 299.1924, Min: 0.0000, Max: 686.5487
+2025-02-06 13:09:50,786 - INFO - Epoch 3: Val Loss: 0.6777
+2025-02-06 13:09:50,787 - INFO - Epoch 3: Accuracy: 0.9394, F1 Score: 0.9428, Precision: 0.8919, Recall: 1.0000
+2025-02-06 13:09:50,872 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_4.pth
+2025-02-06 13:19:01,440 - INFO - Epoch 4: Total Positive Distance - Mean: 60.0845, Min: 0.0000, Max: 363.4313
+2025-02-06 13:19:01,441 - INFO - Epoch 4: Total Negative Distance - Mean: 265.1796, Min: 0.0000, Max: 671.2699
+2025-02-06 13:19:01,503 - INFO - Epoch 4: Val Loss: 0.6763
+2025-02-06 13:19:01,504 - INFO - Epoch 4: Accuracy: 0.9816, F1 Score: 0.9820, Precision: 0.9646, Recall: 1.0000
+2025-02-06 13:19:01,733 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_5.pth
+2025-02-06 13:28:18,244 - INFO - Epoch 5: Total Positive Distance - Mean: 68.1966, Min: 0.0000, Max: 478.7823
+2025-02-06 13:28:18,245 - INFO - Epoch 5: Total Negative Distance - Mean: 309.7622, Min: 0.0000, Max: 733.5740
+2025-02-06 13:28:18,328 - INFO - Epoch 5: Val Loss: 0.6036
+2025-02-06 13:28:18,329 - INFO - Epoch 5: Accuracy: 0.9357, F1 Score: 0.9396, Precision: 0.8861, Recall: 0.9999
+2025-02-06 13:28:18,424 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_6.pth
+2025-02-06 13:37:35,120 - INFO - Epoch 6: Total Positive Distance - Mean: 67.1617, Min: 0.0000, Max: 374.4247
+2025-02-06 13:37:35,121 - INFO - Epoch 6: Total Negative Distance - Mean: 308.6737, Min: 0.0000, Max: 689.9915
+2025-02-06 13:37:35,209 - INFO - Epoch 6: Val Loss: 0.5885
+2025-02-06 13:37:35,210 - INFO - Epoch 6: Accuracy: 0.9569, F1 Score: 0.9587, Precision: 0.9207, Recall: 1.0000
+2025-02-06 13:37:36,182 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_7.pth
+2025-02-06 13:46:51,549 - INFO - Epoch 7: Total Positive Distance - Mean: 80.5850, Min: 0.0000, Max: 658.3578
+2025-02-06 13:46:51,551 - INFO - Epoch 7: Total Negative Distance - Mean: 346.5320, Min: 0.0000, Max: 1048.3501
+2025-02-06 13:46:51,638 - INFO - Epoch 7: Val Loss: 0.6069
+2025-02-06 13:46:51,639 - INFO - Epoch 7: Accuracy: 0.9038, F1 Score: 0.9122, Precision: 0.8387, Recall: 0.9998
+2025-02-06 13:46:51,714 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_8.pth
+2025-02-06 13:56:04,539 - INFO - Epoch 8: Total Positive Distance - Mean: 63.7579, Min: 0.0000, Max: 362.2667
+2025-02-06 13:56:04,540 - INFO - Epoch 8: Total Negative Distance - Mean: 299.2975, Min: 0.0000, Max: 708.8978
+2025-02-06 13:56:04,628 - INFO - Epoch 8: Val Loss: 0.5717
+2025-02-06 13:56:04,629 - INFO - Epoch 8: Accuracy: 0.9585, F1 Score: 0.9602, Precision: 0.9234, Recall: 1.0000
+2025-02-06 13:56:05,561 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_9.pth
+2025-02-06 14:05:18,203 - INFO - Epoch 9: Total Positive Distance - Mean: 85.2418, Min: 0.0000, Max: 578.4955
+2025-02-06 14:05:18,205 - INFO - Epoch 9: Total Negative Distance - Mean: 392.5355, Min: 0.0000, Max: 988.8265
+2025-02-06 14:05:18,267 - INFO - Epoch 9: Val Loss: 0.7367
+2025-02-06 14:05:18,268 - INFO - Epoch 9: Accuracy: 0.8109, F1 Score: 0.8409, Precision: 0.7257, Recall: 0.9995
+2025-02-06 14:05:18,397 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_10.pth
+2025-02-06 14:14:32,580 - INFO - Epoch 10: Total Positive Distance - Mean: 89.4746, Min: 0.0000, Max: 539.0671
+2025-02-06 14:14:32,581 - INFO - Epoch 10: Total Negative Distance - Mean: 395.4061, Min: 0.0000, Max: 842.6505
+2025-02-06 14:14:32,669 - INFO - Epoch 10: Val Loss: 0.6231
+2025-02-06 14:14:32,670 - INFO - Epoch 10: Accuracy: 0.8175, F1 Score: 0.8456, Precision: 0.7328, Recall: 0.9995
+
+2025-02-10 13:29:09,992 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_6.pth
+2025-02-10 13:38:19,976 - INFO - Epoch 6: Total Positive Distance - Mean: 66.9380, Min: 3.2750, Max: 1040.0912
+2025-02-10 13:38:19,977 - INFO - Epoch 6: Total Negative Distance - Mean: 309.0872, Min: 0.0000, Max: 962.9722
+2025-02-10 13:38:20,040 - INFO - Epoch 6: Val Loss: 0.6864
+2025-02-10 13:38:20,041 - INFO - Epoch 6: Accuracy: 0.9561, F1 Score: 0.9580, Precision: 0.9194, Recall: 0.9999
+2025-02-10 13:38:20,161 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_7.pth
+2025-02-10 13:47:27,476 - INFO - Epoch 7: Total Positive Distance - Mean: 80.6749, Min: 3.4848, Max: 1468.2479
+2025-02-10 13:47:27,477 - INFO - Epoch 7: Total Negative Distance - Mean: 346.9868, Min: 0.0000, Max: 1265.6075
+2025-02-10 13:47:27,564 - INFO - Epoch 7: Val Loss: 0.8251
+2025-02-10 13:47:27,566 - INFO - Epoch 7: Accuracy: 0.9009, F1 Score: 0.9098, Precision: 0.8348, Recall: 0.9996
+2025-02-10 13:47:28,135 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_8.pth
+2025-02-10 13:56:38,343 - INFO - Epoch 8: Total Positive Distance - Mean: 63.7458, Min: 3.1081, Max: 910.9141
+2025-02-10 13:56:38,345 - INFO - Epoch 8: Total Negative Distance - Mean: 299.0861, Min: 0.0000, Max: 1159.2808
+2025-02-10 13:56:38,430 - INFO - Epoch 8: Val Loss: 0.6594
+2025-02-10 13:56:38,431 - INFO - Epoch 8: Accuracy: 0.9567, F1 Score: 0.9585, Precision: 0.9203, Recall: 0.9999
+2025-02-10 13:56:38,847 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_9.pth
+2025-02-10 14:05:49,454 - INFO - Epoch 9: Total Positive Distance - Mean: 85.2413, Min: 3.7272, Max: 815.5265
+2025-02-10 14:05:49,455 - INFO - Epoch 9: Total Negative Distance - Mean: 390.8783, Min: 0.0000, Max: 899.1215
+2025-02-10 14:05:49,543 - INFO - Epoch 9: Val Loss: 0.8646
+2025-02-10 14:05:49,544 - INFO - Epoch 9: Accuracy: 0.8112, F1 Score: 0.8411, Precision: 0.7261, Recall: 0.9992
+2025-02-10 14:05:50,181 - INFO - Evaluating Model: ./model/SiameseGNN/TripletGNN_epoch_10.pth
+2025-02-10 14:14:57,209 - INFO - Epoch 10: Total Positive Distance - Mean: 88.7513, Min: 5.0991, Max: 1692.4419
+2025-02-10 14:14:57,210 - INFO - Epoch 10: Total Negative Distance - Mean: 397.0515, Min: 0.0000, Max: 1359.9921
+2025-02-10 14:14:57,297 - INFO - Epoch 10: Val Loss: 0.8112
+2025-02-10 14:14:57,298 - INFO - Epoch 10: Accuracy: 0.8143, F1 Score: 0.8433, Precision: 0.7294, Recall: 0.9994
+
