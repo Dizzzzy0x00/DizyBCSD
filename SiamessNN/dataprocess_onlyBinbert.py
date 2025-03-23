@@ -96,40 +96,48 @@ def load_trained_model(model_path, base_model_name="microsoft/codebert-base", de
     return model
 
 # 构造图数据的方法
+# 仅仅使用128维Binbert嵌入信息，不使用11维统计数据作为节点特征
 def process_function(row, binbert, device):
-    bb_features = np.array(eval(row['bb_features']), dtype=np.float32)  # (num_nodes, 11)
-    bb_disasm = eval(row['bb_disasm'])  # (num_nodes, 指令列表)
+    try:
+        bb_disasm = eval(row['bb_disasm'])
+        if len(bb_disasm) == 0:
+            return None  # 跳过空数据
 
-    # 使用 BinBERT 提取汇编嵌入
-    disasm_features = []
-    for instructions in bb_disasm:
-        processed_instructions = "\n".join(preprocess_disassembly(instructions))
-        encodings = binbert.tokenizer(processed_instructions, padding=True, truncation=True, return_tensors="pt").to(device)
-        with torch.no_grad():
-            embedding = binbert(encodings).cpu().numpy().flatten()  # (128,)
-        disasm_features.append(embedding)
+        disasm_features = []
+        for instructions in bb_disasm:
+            processed_instructions = "\n".join(preprocess_disassembly(instructions))
+            encodings = binbert.tokenizer(processed_instructions, padding=True, truncation=True, return_tensors="pt").to(device)
+            with torch.no_grad():
+                embedding = binbert(encodings).squeeze().cpu().numpy()  # 确保输出为 (128,)
+            disasm_features.append(embedding)
 
-    disasm_features = np.array(disasm_features, dtype=np.float32)
-    if disasm_features.ndim == 1:
-        disasm_features = disasm_features.reshape(1, -1)
+        disasm_features = np.array(disasm_features, dtype=np.float32)
+        if disasm_features.ndim == 1:
+            disasm_features = disasm_features.reshape(1, -1)
+        assert disasm_features.shape[1] == 128, f"特征维度错误: {disasm_features.shape}"
+        
+        node_features = disasm_features  # (num_nodes, 128)
+        edges = eval(row['edges'])
 
-    node_features = np.concatenate([bb_features, disasm_features], axis=1)  # (num_nodes, 11+128)
-    edges = eval(row['edges'])
-
-    # 构建节点索引映射
-    unique_nodes = set()
-    for src, dst in edges:
-        unique_nodes.add(src)
-        unique_nodes.add(dst)
-    addr_to_idx = {addr: idx for idx, addr in enumerate(sorted(unique_nodes))}
-
-    # 转换边索引
-    edge_index = torch.tensor([[addr_to_idx[e[0]], addr_to_idx[e[1]]] for e in edges], dtype=torch.long).t().contiguous()
-    num_nodes = len(addr_to_idx)
-    self_loops = torch.arange(num_nodes).view(1, -1).repeat(2, 1)
-    edge_index = torch.cat([edge_index, self_loops], dim=1)
-
-    return Data(x=torch.tensor(node_features, dtype=torch.float), edge_index=edge_index)
+        # 构建节点索引映射
+        unique_nodes = set()
+        for src, dst in edges:
+            unique_nodes.add(src)
+            unique_nodes.add(dst)
+        addr_to_idx = {addr: idx for idx, addr in enumerate(sorted(unique_nodes))}
+    
+        # 转换边索引
+        edge_index = torch.tensor([[addr_to_idx[e[0]], addr_to_idx[e[1]]] for e in edges], dtype=torch.long).t().contiguous()
+        num_nodes = len(addr_to_idx)
+        self_loops = torch.arange(num_nodes).view(1, -1).repeat(2, 1)
+        edge_index = torch.cat([edge_index, self_loops], dim=1)
+    
+        return Data(x=torch.tensor(node_features, dtype=torch.float), edge_index=edge_index)
+        
+    except Exception as e:
+        print(f"处理数据失败: {e}")
+        return None
+   
 
 # 构造三元组的方法
 def construct_triplets(df, target_triplets=80000):
@@ -157,8 +165,12 @@ def construct_triplets(df, target_triplets=80000):
                     #if (neg_compiler_opt != compiler_opt_1) or (neg_func_file != func_file_1):
                     if ( neg_func_file != func_file_1 ):
                         break  # 找到符合要求的负样本，跳出循环
-                
+
+                #if(len(triplets)>target_triplets+10):
+                    #break
                 # 生成三元组
+                #else:
+                
                 triplets.append((idx1, idx2, neg_idx))
 
     # 随机抽取所需数量的三元组
@@ -201,14 +213,16 @@ def prepare_triplet_datasets(csv_file, model_path, device, test_size=0.2, batch_
     df = pd.read_csv(csv_file)
     print("Finish data reading.")
 
+    #triplets = construct_triplets(df,target_triplets=800)
     triplets = construct_triplets(df)
     train_triplets, val_triplets = train_test_split(triplets, test_size=test_size, random_state=42)
 
     train_dataset = GraphTripletDataset(df, train_triplets, binbert, device)
+    train_loader = GeometricDataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=2, pin_memory=True)
+    
     val_dataset = GraphTripletDataset(df, val_triplets, binbert, device)
+    val_loader = GeometricDataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=2, pin_memory=True)
 
-    train_loader = GeometricDataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True)
-    val_loader = GeometricDataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True)
 
     return train_loader, val_loader
 

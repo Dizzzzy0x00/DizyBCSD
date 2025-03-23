@@ -96,24 +96,12 @@ def load_trained_model(model_path, base_model_name="microsoft/codebert-base", de
     return model
 
 # 构造图数据的方法
-def process_function(row, binbert, device):
+# 仅仅使用11维统计数据，不使用128维Binbert嵌入信息作为节点特征
+def process_function(row):
     bb_features = np.array(eval(row['bb_features']), dtype=np.float32)  # (num_nodes, 11)
-    bb_disasm = eval(row['bb_disasm'])  # (num_nodes, 指令列表)
+    #bb_disasm = eval(row['bb_disasm'])  # (num_nodes, 指令列表)
 
-    # 使用 BinBERT 提取汇编嵌入
-    disasm_features = []
-    for instructions in bb_disasm:
-        processed_instructions = "\n".join(preprocess_disassembly(instructions))
-        encodings = binbert.tokenizer(processed_instructions, padding=True, truncation=True, return_tensors="pt").to(device)
-        with torch.no_grad():
-            embedding = binbert(encodings).cpu().numpy().flatten()  # (128,)
-        disasm_features.append(embedding)
-
-    disasm_features = np.array(disasm_features, dtype=np.float32)
-    if disasm_features.ndim == 1:
-        disasm_features = disasm_features.reshape(1, -1)
-
-    node_features = np.concatenate([bb_features, disasm_features], axis=1)  # (num_nodes, 11+128)
+    node_features = bb_features  # (num_nodes, 11)
     edges = eval(row['edges'])
 
     # 构建节点索引映射
@@ -170,11 +158,11 @@ def construct_triplets(df, target_triplets=80000):
 
 # 数据集封装
 class GraphTripletDataset(Dataset):
-    def __init__(self, df, triplets, binbert, device):
+    def __init__(self, df, triplets):
         self.df = df
         self.triplets = triplets
-        self.binbert = binbert
-        self.device = device
+        #self.binbert = binbert
+        #self.device = device
 
     def __len__(self):
         return len(self.triplets)
@@ -187,37 +175,35 @@ class GraphTripletDataset(Dataset):
         row2 = self.df.iloc[idx2]
         row3 = self.df.iloc[idx3]
 
-        data1 = process_function(row1, self.binbert, self.device)
-        data2 = process_function(row2, self.binbert, self.device)
-        data3 = process_function(row3, self.binbert, self.device)
+        data1 = process_function(row1)
+        data2 = process_function(row2)
+        data3 = process_function(row3)
 
         return data1, data2, data3
         
 from sklearn.model_selection import train_test_split
 
 # 数据加载器
-def prepare_triplet_datasets(csv_file, model_path, device, test_size=0.2, batch_size=16):
-    binbert = load_trained_model(model_path, device=device)
+def prepare_triplet_datasets(csv_file, test_size=0.2, batch_size=16):
     df = pd.read_csv(csv_file)
     print("Finish data reading.")
 
     triplets = construct_triplets(df)
     train_triplets, val_triplets = train_test_split(triplets, test_size=test_size, random_state=42)
 
-    train_dataset = GraphTripletDataset(df, train_triplets, binbert, device)
-    val_dataset = GraphTripletDataset(df, val_triplets, binbert, device)
+    train_dataset = GraphTripletDataset(df, train_triplets)
+    val_dataset = GraphTripletDataset(df, val_triplets)
 
-    train_loader = GeometricDataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True)
-    val_loader = GeometricDataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True)
+    train_loader = GeometricDataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=2, pin_memory=True)
+    val_loader = GeometricDataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=2, pin_memory=True)
 
     return train_loader, val_loader
 
 if __name__ == "__main__":
     csv_file = "./dataset/acfg.csv"
-    model_path = "./BinbertModels/triplet_model_epoch_2.pth"
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    train_loader, val_loader = prepare_triplet_datasets(csv_file, model_path, device, 0.1, 32)
+    train_loader, val_loader = prepare_triplet_datasets(csv_file, 0.1, 32)
 
     for batch in train_loader:
         data1, data2, data3 = batch
